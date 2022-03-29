@@ -1,7 +1,7 @@
 import pygame
 
 import sys
-
+# this is a comment
 class BaseSprite(pygame.sprite.Sprite):
     def __init__(self, game, x, y, x_pos=0, y_pos=0, x_shift=0, y_shift=0,
             x_scale=1, y_scale=1, layer=0, groups=None, spritesheet=None):
